@@ -8,7 +8,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-a, li{
+a{
     text-decoration: none;
     color: white;
 }
@@ -34,12 +34,19 @@ header{
     cursor: pointer;
 }
 
+.nav_links{
+    cursor:default;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
 .nav_links a{
-    transition: all 0.3s ease 0s;
-    margin: 0 2rem;
+    transition: all .4s ease;
 }
 .nav_links a:hover,
 .nav_links a:focus{
     color: rgb(168, 120, 207);
-    transform: translateY(-10%);
+    transform: scale(1.2);
 }
