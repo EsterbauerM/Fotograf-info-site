@@ -39,7 +39,6 @@ header{
     width: 30%;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
 }
 
 .nav_links a{
