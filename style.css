@@ -39,6 +39,7 @@ header{
     width: 30%;
     display: flex;
     justify-content: space-between;
+    max-width: 30%;
 }
 
 .nav_links a{
@@ -47,5 +48,5 @@ header{
 .nav_links a:hover,
 .nav_links a:focus{
     color: rgb(168, 120, 207);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
