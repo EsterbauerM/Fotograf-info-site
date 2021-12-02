@@ -15,9 +15,9 @@ a{
 
 header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    padding: 2rem;
+    padding: 2rem 10%;
     color: white;
 }
 
@@ -25,21 +25,28 @@ header{
     display: flex;
     align-items: center;
 }
+.header_stuff h3{
+    margin-left: 4rem;
+}
 
 .logo {
     height: 5rem;
-    margin-right: 3rem;
+    cursor: pointer;
 }
 
 .nav_links{
     cursor:default;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 30%;
 }
 
 .nav_links a{
-    margin: 0 2rem;
     transition: all .4s ease;
 }
 .nav_links a:hover,
 .nav_links a:focus{
     color: rgb(168, 120, 207);
+    transform: scale(1.1);
 }
